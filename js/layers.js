@@ -24,5 +24,13 @@ addLayer("Wood", {
     hotkeys: [
         {key: "Wood", description: "W: Reset for Wood Blocks", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return true}
+    layerShown(){return true},
+
+    upgrades: {
+        11: {
+            name: "Shovel",
+            description: "Craft a Wooden Shovel increasing Dirt Block gain",
+            cost: new Decimal(1),
+        },
+    },
 })
