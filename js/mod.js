@@ -1,14 +1,14 @@
 let modInfo = {
-	name: "The Minecraft Tree",
+	name: "The ??? Tree",
 	id: "mymod",
-	author: "Damon Flichel",
-	pointsName: "Dirt Blocks",
+	author: "nobody",
+	pointsName: "points",
 	modFiles: ["layers.js", "tree.js"],
 
-	discordName: "The Minecraft Tree",
-	discordLink: "https://discord.gg/CV6Myxxjew",
+	discordName: "",
+	discordLink: "",
 	initialStartPoints: new Decimal (10), // Used for hard resets and new players
-	offlineLimit: 0,  // In hours
+	offlineLimit: 1,  // In hours
 }
 
 // Set your version in num and name
@@ -19,8 +19,8 @@ let VERSION = {
 
 let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
-		- Created Mod.<br>
-		- Learned about mod making.`
+		- Added things.<br>
+		- Added stuff.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
